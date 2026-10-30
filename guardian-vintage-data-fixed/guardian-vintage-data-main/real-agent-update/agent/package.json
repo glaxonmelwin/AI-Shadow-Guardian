@@ -1,0 +1,17 @@
+{
+  "name": "ai-shadow-guardian-agent",
+  "version": "0.1.0",
+  "description": "Real endpoint agent for AI Shadow Guardian: heartbeats a real device and scans real clipboard content for secrets/PII, reporting genuine events to your Convex backend.",
+  "type": "module",
+  "main": "agent.mjs",
+  "scripts": {
+    "start": "node agent.mjs"
+  },
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "convex": "^1.16.0",
+    "dotenv": "^16.4.5",
+    "node-machine-id": "^1.1.12",
+    "node-notifier": "^10.0.1"
+  }
+}
